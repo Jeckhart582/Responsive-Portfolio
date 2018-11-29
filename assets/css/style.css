@@ -220,30 +220,69 @@ input[type=submit] {
 
 
 @media (max-width: 980px) {
-  .container {
-    float: left;
+  #main-container {
     width: 70%;
-    margin: 5%;
+    float: left;
   }
 }
 
-@media (max-width: 720px) {
-  .containter {
-    float: left;
-    width: 70%;
-    margin: 2%;
 
+@media (max-width: 768px) {
+.auth-image {
+  width: 50%;
+}
+
+nav {
+  position: relative;
+  right: 40px;
   }
-  nav {
-    visibility: hidden;
+
+.work {
+  position: relative;
+  left: 7%;
+}
+
+
+}
+
+
+@media (max-width: 640px) {
+  
+  #masthead {
+    position: static;
   }
+  
   #logo {
-    margin: auto 0;
+    margin: auto;
+    width: 640px;
   }
-}
+  
+  nav {
+    float: none;
+    width: 640px;
 
-@media (max-width: 411px) {
-  .container {
+  }
+
+  .work {
     width: 95%;
+    margin: 0;
+  }
+
+  .main-section {
+    top: 0px;
+    position: relative;
+  }
+
+  .auth-image {
+    float: none;
+    margin: auto;
+    width: 100%;
+  }
+  
+  
+  #main-container{
+    width: 600px;
+    margin: auto;
+    padding: 0;
   }
 }
